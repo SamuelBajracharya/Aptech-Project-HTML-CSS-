@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'century gothic';
+}
+body{
+  background-color: black;
+}
+/* For navigation */
+nav{
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  height: 100px;
+  box-shadow: 1px 3px 18px 1px rgb(185, 185, 185);
+  position: relative;
+  
+}
+nav a{
+  color: rgb(0, 255, 42);
+  text-decoration: none;
+  padding: 25px;
+  margin: 10px;
+  font-weight: normal;
+
+}
+
+/* For main page */
+#home{
+  background-color: rgb(0, 255, 98);
+  width: 100%;
+  height: 750px;
+  box-sizing: content-box;
+  /* position: absolute; */
+  margin-top: 50px;
+}
+.paragraph{
+  margin:20px auto;
+  text-align: center;
+  font-size: 48px;
+  width: 40%;
+  box-sizing: content-box;
+  padding: 250px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+/* for bio page */
+#bio{
+  box-sizing: content-box;
+  margin: 150px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  color: white;
+  width: 60%;
+  box-shadow: 0px 6px 20px 8px rgb(122, 119, 119);
+}
+.picture{
+  width: 50%;
+  height: 100%;
+  float: left;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.picture img{
+  width: 100%;
+  height: 100%;
+}
+.mainbio{
+  width: 50%;
+  display: inline-block;
+  /* float:left; */
+  /* background-color: aquamarine; */
+  text-align: center;
+  
+}
+h1{
+  margin: 60px 0px 10px 0px;
+  /* text-align: center; */
+  width: 100%;
+  color: rgb(94, 255, 0);
+  font-size: 36px;
+  font-weight: normal;
+}
+.bio{
+  text-align: center;
+  padding: 23px;
+  width: 100%;
+  font-size: 18px;
+}
+.read{
+  width: 140px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  border: solid 2px rgb(60, 255, 0);
+  color: white;
+  border-radius: 10px;
+  margin: 80px auto;
+  font-size: 18px;
+}
+.read:hover{
+  background-color: rgb(94, 94, 94);
+}
+
+/* for education */
+#education{
+  width: 100%;
+  height: 800px;
+  margin: 20px 0;
+  position: absolute;
+}
+.edu{
+  margin: 80px auto;
+  width: 50%;
+  height: 70%;
+  padding: 20px 0;
+  box-sizing: content-box;
+}
+.educationtext{
+  color: rgb(0, 255, 42);
+  text-align: center;
+  padding: 20px;
+  margin: 100px auto 0 auto;
+  font-size: 36px;
+  font-weight: normal;
+}
+table{
+  margin: 20px auto;
+  box-sizing: content-box;
+}
+.heading_table{
+  background-color: rgb(128, 128, 128);
+  
+}
+.heading_table th{
+  text-align: center;
+  font-weight: normal;
+  word-spacing: 200px;
+  padding: 20px 10px 20px 40px;
+}
+table tr td{
+  padding: 20px 20px;
+ 
+  color: rgb(255, 255, 255);
+}
+/* for certificate */
